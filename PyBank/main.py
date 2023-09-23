@@ -69,11 +69,11 @@ output_file= "PyBank/analysis/analysis.txt"
 
 #add everything to a txt file 
 with open(output_file,"w") as txtfile:
-    txtfile.write("Financial Analysis")
-    txtfile.write("---------------------")
-    txtfile.write(f"Total Months:{total_months}")
-    txtfile.write(f"Total:${total_profit_loss}")
-    txtfile.write(f"Average Change:${average_change:.2f}")
-    txtfile.write(f"Greatest Increase in Profits:{greatest_increase['date']} (${greatest_increase['amount']})")
-    txtfile.write(f"Greatest Decrease in Profits:{greatest_decrease['date']} (${greatest_decrease['amount']})")
+    txtfile.write("Financial Analysis"\n)
+    txtfile.write("---------------------"\n)
+    txtfile.write(f"Total Months:{total_months}"\n)
+    txtfile.write(f"Total:${total_profit_loss}"\n)
+    txtfile.write(f"Average Change:${average_change:.2f}"\n)
+    txtfile.write(f"Greatest Increase in Profits:{greatest_increase['date']} (${greatest_increase['amount']})"\n)
+    txtfile.write(f"Greatest Decrease in Profits:{greatest_decrease['date']} (${greatest_decrease['amount']})"\n)
 
