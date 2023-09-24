@@ -48,7 +48,7 @@ for candidate, votes in candidates.items():
     percentage = candidate_percentage[candidate]
     print(f"{candidate}:{percentage:.3f}% ({votes})")
 
-print("--------------")
+print("--------------\n")
 print(f"Winner:{winner}")
 print("--------------")
 
